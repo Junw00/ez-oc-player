@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+
+  "name": "ez_video",
+  "description": "for student",
+  "version": "1.0",
+  "content_scripts": [{
+    "js": ["script.js"],
+    "matches": ["https://*/class*"],
+    "all_frames": true
+  }],
+  "permissions": [
+    "activeTab"
+  ]
+}
